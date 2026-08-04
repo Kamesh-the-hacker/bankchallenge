@@ -54,7 +54,7 @@ def login():
 
 
 # 🏦 DASHBOARD (FLAG HERE)
-@app.route("/dashboard")
+@app.route("/flag")
 def dashboard():
     return render_template("dashboard.html")
 
